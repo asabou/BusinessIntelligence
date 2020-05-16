@@ -1,0 +1,219 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="77ec3930-4061-4655-8a12-1c82aa6d9817" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Specificatii Tehnice</ID>
+  <Name>Dim Specificatii Tehnice</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2743" scrolltop="-4138" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="11663" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSpecificatii_Tehnice" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3429" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000650d00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimSpecificatii_Tehnice" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2743</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4138</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="88ba11ec-1e75-4be3-8118-2855a1b8566d">
+    <DataSourceViewID>Showroom CarsView</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="edf25547-b917-4a53-96c0-91e96e6af286">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="dd884e83-da11-4479-94c0-7a38a46b8ef5">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4cca1eac-23f9-4de5-a6b4-dee33eb549ed">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a60bee33-e607-4542-a643-bb22e57bf8c0">
+            <TableID>dbo_DimSpecificatii_Tehnice</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="eb87550e-97a8-45ec-84d7-707ecc87794b">
+          <AttributeID>Capacitate Motor</AttributeID>
+          <Name>Capacitate Motor</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0428d609-5d0e-43f7-817b-99f2de1b2a04">
+          <AttributeID>Cutie Viteza</AttributeID>
+          <Name>Cutie Viteza</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9005c30c-8766-462d-b132-8871babc0faa">
+          <AttributeID>Caroserie</AttributeID>
+          <Name>Caroserie</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="505b896f-76ae-4a54-9dcf-31607d98eafd">
+          <AttributeID>Combustibil</AttributeID>
+          <Name>Combustibil</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3d5591a3-28e6-4e08-8fb2-7146db0f9a66">
+          <AttributeID>Nr Trepte</AttributeID>
+          <Name>Nr Trepte</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="99baf491-bfb7-4c3f-b083-e12bd409de7c">
+          <AttributeID>Putere</AttributeID>
+          <Name>Putere</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="03062432-9466-4d1e-a43f-4091f9ac696f">
+      <ID>Capacitate Motor</ID>
+      <Name>Capacitate Motor</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1ded19f5-881b-424d-90bb-26eafff3c0ed">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c09efbe-5945-42d7-99c3-ab5f4e5b4f5e">
+            <TableID>dbo_DimSpecificatii_Tehnice</TableID>
+            <ColumnID>Capacitate_Motor</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aff2241b-9eb2-4bab-bb3f-0ac2598e0c00">
+      <ID>Cutie Viteza</ID>
+      <Name>Cutie Viteza</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5da2da68-7122-441a-ac15-d05d9df5ee95">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d603477-6cad-4369-bff1-265278b4b118">
+            <TableID>dbo_DimSpecificatii_Tehnice</TableID>
+            <ColumnID>Cutie_Viteza</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4e0297db-6f08-41ee-86b6-52c16d596aac">
+      <ID>Caroserie</ID>
+      <Name>Caroserie</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="739ac739-48fb-437c-9fdc-2256e50ceb5c">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58ed2884-43b9-48c1-bddd-6c31b99fef8e">
+            <TableID>dbo_DimSpecificatii_Tehnice</TableID>
+            <ColumnID>Caroserie</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1ef0c589-1afe-4e8d-80a2-fbafbce2c46f">
+      <ID>Combustibil</ID>
+      <Name>Combustibil</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3604d313-d61b-4fd0-a83d-bd50adc1c80b">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c0a46a9-8748-49fd-b1c3-2e89de5da7f8">
+            <TableID>dbo_DimSpecificatii_Tehnice</TableID>
+            <ColumnID>Combustibil</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eba2f414-b6b9-4ad6-8acc-66e73db19472">
+      <ID>Nr Trepte</ID>
+      <Name>Nr Trepte</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="70b06654-6f83-4cd7-b861-6638d4a1da43">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a913573f-f3c4-454e-8ed9-d081caba0874">
+            <TableID>dbo_DimSpecificatii_Tehnice</TableID>
+            <ColumnID>Nr_Trepte</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="636c9791-5d01-439e-86db-d0589e9a02b2">
+      <ID>Putere</ID>
+      <Name>Putere</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="99d41de9-afca-47b9-9e7d-ddf12075b44d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="234a56c3-28e2-437b-9755-b5864330ab67">
+            <TableID>dbo_DimSpecificatii_Tehnice</TableID>
+            <ColumnID>Putere</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

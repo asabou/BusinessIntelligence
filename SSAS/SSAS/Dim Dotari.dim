@@ -1,0 +1,197 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a03c5051-6a8b-49a4-a121-653c94f102b0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Dotari</ID>
+  <Name>Dim Dotari</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2774" scrolltop="-4318" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8954" y="11663" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDotari" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3366" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000260d0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDotari" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2774</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4318</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1b4b1f4f-46ee-452c-b178-9fb4c6e43de9">
+    <DataSourceViewID>Showroom CarsView</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="8981899b-4787-488f-959a-ef6793a6cda6">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="73450d89-df8a-4e2a-b5f7-7bc28f366fd3">
+      <ID>Dotari ID</ID>
+      <Name>Dotari ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="da07012c-05f1-4ffa-8e71-accee1cd711f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77bcc4ca-3617-4bab-9b4a-bea054ebe110">
+            <TableID>dbo_DimDotari</TableID>
+            <ColumnID>DotariID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="50df61fd-6756-4550-a72b-0691af470d06">
+          <AttributeID>Clima</AttributeID>
+          <Name>Clima</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb1d8d6d-8dc0-4e4a-b579-c23cec6813a1">
+          <AttributeID>Incalzire Scaune</AttributeID>
+          <Name>Incalzire Scaune</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a883575b-c01d-45f6-a394-2cbfcad6fb02">
+          <AttributeID>Senzor Parcare</AttributeID>
+          <Name>Senzor Parcare</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="94fdc6e4-0422-4c48-8f89-aabb57194e07">
+          <AttributeID>Cotiera</AttributeID>
+          <Name>Cotiera</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c5ba2af1-87a3-49d7-bc3f-815148da732d">
+          <AttributeID>Navigatie</AttributeID>
+          <Name>Navigatie</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="df4a3107-3f65-4f55-8e4b-80a941aea3ce">
+      <ID>Clima</ID>
+      <Name>Clima</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d72cf579-06f7-49c2-90ee-e51ec1ffc225">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="285af532-c54e-4655-8bca-2085ef49935a">
+            <TableID>dbo_DimDotari</TableID>
+            <ColumnID>Clima</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e93694a0-fff8-4516-8a81-e065355bb25d">
+      <ID>Incalzire Scaune</ID>
+      <Name>Incalzire Scaune</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="31dcc3e1-ef9f-4f7e-8337-0557001b4770">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a96c591-a90e-4f8f-a4c3-aa65794a4436">
+            <TableID>dbo_DimDotari</TableID>
+            <ColumnID>Incalzire_Scaune</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6cb55481-a83c-4b7b-a5fb-7a4f20edf948">
+      <ID>Senzor Parcare</ID>
+      <Name>Senzor Parcare</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4145d5e9-9bd7-47b6-8777-4cd551ffa434">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="35dd934c-271e-45ce-94e7-a662242add1e">
+            <TableID>dbo_DimDotari</TableID>
+            <ColumnID>Senzor_Parcare</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ca69e0da-ba83-487c-93b2-571c0055b2ac">
+      <ID>Cotiera</ID>
+      <Name>Cotiera</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="38d9f80a-6efc-4ff6-a020-095a0a626113">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="54db54b6-b691-4509-ad8e-47a7c4f1e4cc">
+            <TableID>dbo_DimDotari</TableID>
+            <ColumnID>Cotiera</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="78e1f07c-e74d-4966-bf2d-3163e3c64f1d">
+      <ID>Navigatie</ID>
+      <Name>Navigatie</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d00b5ba8-f310-465f-98c9-ef601d7b1314">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="508bfd3a-e64f-4d8d-aac9-f4aa0e641f8f">
+            <TableID>dbo_DimDotari</TableID>
+            <ColumnID>Navigatie</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
